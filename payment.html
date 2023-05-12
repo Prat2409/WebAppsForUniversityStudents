@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Page</title>
+    <link rel="stylesheet" type="text/css" href="payment.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Scan QR Code to Make Payment</h1>
+        <div id="qrContainer">
+            <div id="qrCode"></div>
+        </div>
+        <button id="scanButton" onclick="scanQRCode()">Scan QR Code</button>
+        <div id="paymentStatus"></div>
+    </div>
+
+    <script src="qrcode.min.js"></script>
+    <script src="payment.js"></script>
+</body>
+</html>

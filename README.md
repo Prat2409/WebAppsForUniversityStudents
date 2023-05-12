@@ -1,2 +1,2 @@
-# WebAppsForUniversityStudents
-This is an application for university students.
+# FoodShades
+# SE Group 41

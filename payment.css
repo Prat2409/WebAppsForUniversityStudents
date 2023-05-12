@@ -1,0 +1,25 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#qrContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#qrCode {
+    width: 200px;
+    height: 200px;
+}
+
+#scanButton {
+    display: block;
+    margin: 0 auto;
+}

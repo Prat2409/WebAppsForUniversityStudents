@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance</title>
+  <link rel="stylesheet" type="text/css" href="attendance.css">
+  <script src="attendance.js"></script>
+</head>
+<body>
+  <h1>Attendance</h1>
+  
+  <form id="attendanceForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" class="name" required>
+    <label for="name">ID:</label>
+    <input type="text" id="name" required>
+    <label for="class code">Class Code:</label>
+    <input type="class code" id="class code" required>
+    <label for="date">Date:</label>
+    <input type="date" id="date" required>
+    <label for="time">Time:</label>
+    <input type="time" id="time" required>
+    <button type="submit">Submit</button>
+  </form>
+
+
+  <script>
+    document.getElementById('attendanceForm').addEventListener('submit', function(event) {
+      var allowedURL = "10.200.0.4"; // Replace with your allowed WiFi network URL
+      
+      // Get the current URL
+      var currentURL = window.location.href = "10.200.0.4" ;
+      
+      // Check if the current URL matches the allowed URL
+      if (currentURL === allowedURL) {
+        // Attendance submission logic goes here
+        // You can add code to handle the form submission and save the attendance data
+        alert("Attendance submitted successfully!");
+      } else {
+        event.preventDefault(); // Prevent form submission if the URL does not match
+        alert("Attendance submission is only allowed on the authorized WiFi network.");
+      }
+    });
+  </script>
+</body>
+</html>

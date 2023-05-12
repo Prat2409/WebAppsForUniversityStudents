@@ -1,0 +1,36 @@
+/* Style for Menu */
+.menu {
+    width: 50%;
+    float: left;
+  }
+  .menu h2 {
+    margin-top: 0;
+  }
+  .menu li {
+    margin-bottom: 10px;
+  }
+  .menu li button {
+    margin-left: 10px;
+  }
+  
+  /* Style for Cart */
+  .cart {
+    width: 50%;
+    float: right;
+  }
+  .cart h2 {
+    margin-top: 0;
+  }
+  .cart ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .cart li {
+    margin-bottom: 10px;
+  }
+  .cart .total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
